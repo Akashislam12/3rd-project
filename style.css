@@ -1,0 +1,233 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    
+   
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+}
+#scrolbar{
+    background-image:linear-gradient(to right, #a517ba,#5f1782) !important;
+}
+li.nav-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.fa, .fas {
+    font-weight: 900;}
+    navbar-nav .nav-link {
+        padding-right: 0;
+            padding-left: 0}
+
+
+
+
+ .bannar{
+     background-image: linear-gradient(to right, #a517ba,#5f1782);
+ }
+ .row {
+    margin-top: 100px;
+}
+
+.col-md-6.py-5.col-md-3 {
+    color: white;
+    margin-top: 100px;
+
+
+}
+.col-md-6.py-5.col-md-3 h4 {
+    margin-left: 80px;
+    margin-top: -40px;
+}
+.col-md-6.py-5.col-md-3 h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+a img {
+    width: 60px;
+    
+}           
+.row1 h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.row1 h1::after {
+    content: '';
+    display: block;
+    background: #7b1798;
+    height: 3px;
+    width: 200px;
+    margin: auto;
+    transform: translatey(25px);
+}
+.col-sm-12.col-md-6.col-lg-3 {
+    float: left;
+    text-align: center;
+}
+
+.col-sm-12.col-md-6.col-lg-3 img {
+    width: 100px;
+    text-align: center !important;
+    margin-bottom: 25px;
+}
+
+.col-sm-12.col-md-6.col-lg-3 h3 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.col-sm-12.col-md-6.col-lg-3 p {
+    color: #191818ad;
+    line-height: 30px;
+}
+.col-sm-12.col-md-6.col-lg-3 h3::after{
+    content: '';
+    display: block;
+    background: #7b1798;
+    height: 3px;
+    width: 150px;
+    margin: auto;
+    transform: translatey(25px);
+    margin-bottom: 65px;
+}
+
+
+    button.btn.service-btn{
+        background-image: linear-gradient(to right,#a517ba,#5f1782);
+        width: 280px;
+        text-align: center;
+        margin-left: 520px;
+        margin-top: 36px;
+        padding: 15px;
+        color: white;
+        font-weight: 400;
+        border-radius: 30px;
+}
+.row1 h1{
+    margin-top: 75px;
+}
+section#chose-us {
+    background: #f5f5f5;
+}
+
+.row1 h1 {padding: 50px;}
+.choise-ditels.col-sm-12.col-md-6.col-lg-6 {
+    padding: 30px;
+}
+
+.choise-ditels.col-sm-12.col-md-6.col-lg-6 h1 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.choise-ditels.col-sm-12.col-md-6.col-lg-6 ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.clint1.col-sm12.col-md-6.col-lg-6 img {
+    width: 85px;
+}
+
+.clint2.col-sm12.col-md-6.col-lg-6 img {
+    width: 85px;
+}
+.cldis {
+    margin-left: 100px;
+    margin-top: -70px;}
+.clint1.col-sm12.col-md-6.col-lg-6 {
+        border-left: 5px solid #7b1798; 
+    }
+    .clint2.col-sm12.col-md-6.col-lg-6 {
+        border-left: 5px solid #7b1798; 
+    }
+    p {
+        margin-bottom: 35px;
+        font-weight: 300;
+        line-height: 35px;
+    }
+    .row1 {
+        margin-bottom: 60px;
+    }
+    
+    .row1 h1 {
+        font-weight: 700;
+    }
+    .cocial.col-sm-12.col-md-12.col-lg-12 {
+        text-align: center;
+    }
+    .cocial.col-sm-12.col-md-12.col-lg-12 {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    
+    img {}
+    
+    .cocial.col-sm-12.col-md-12.col-lg-12 img {
+        margin-left: 20px;
+        width: 65px;
+       
+    }
+#footer{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}    
+.single.col-sm-12.col-md-6.col-lg-4 {
+    margin-top: 65px;
+    color: white;
+}
+.single.col-sm-12.col-md-6.col-lg-4 h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.single.col-sm-12.col-md-6.col-lg-4 h1 {
+    font-size: 46px;
+    font-weight: 800;
+}
+.single.col-sm-12.col-md-6.col-lg-4  a {
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    padding: 7px;
+    margin-right: 44px;
+    background-image:linear-gradient(to right,#a517ba,#5f1782) ;
+}
+input.from-c {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+button.btn.btn-email {
+    color: white;
+    border: 1px solid white;
+    margin-top: 30px;
+}
+.row3 {
+    border-bottom: 1px solid white;
+   
+}
+p.text-center.py-0.md-0 {color: white;}
